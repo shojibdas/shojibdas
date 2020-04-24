@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cinzel:wght@400;700&family=Fredericka+the+Great&family=Monoton&family=Neuton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(resources/img/back8.jpg);
+    background-size: cover;
+   overflow: hidden;
+    
+}
+#menu-bar{
+    
+   width: ;
+    height: 48px;
+    background-color: rgb(24, 114, 24);
+    margin:0 auto ;
+     
+}
+#menu-bar ul{
+    margin-left: 220px;
+}
+#menu-bar li{
+    list-style-type: none;
+    float: left;
+    background-color: rgb(24, 114, 24);
+    padding: 15px 35px;
+    position: relative;
+
+}
+#menu-bar li a{
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+    display: block;
+    
+}
+#menu-bar li:hover{
+    background-color: rgb(41, 39, 39);
+    transition: 0.3s;
+}
+#menu-bar ul li ul{
+    list-style-type: none;
+    position: absolute;
+    left: -9999px;
+    padding: 0;
+    margin-left:0px;
+    margin-top: 15px;
+}
+#menu-bar li:hover ul{
+    left: 0;
+    
+}
+#menu-bar ul li ul li{
+    float: none;
+    width: 100px;
+    border-bottom: 2px solid rgb(27, 134, 32);
+    
+    
+}
+ 
+
+/* .......   */
+#header h2{
+       color: rgb(255, 255, 255);
+       text-align: center;
+       font-size: 35px;
+       font-family: Fredericka the Great;
+}
+#header p{
+        text-align: center;
+        color: rgb(219, 233, 21);
+        font-size: 22px;
+        padding-bottom: 10px;
+        font-family: cinzel;
+}
+#content-wrapper{
+    margin-top: 120px;
+}
+#content-wrapper #content h2{
+    text-align: center;
+    font-family: alice;
+    color: white;
+}
+#content-wrapper #content p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: alice;
+    padding: 0 60px;
+    font-size: 18px;
+    color: white;
+}
+#footer{
+    background-color: rgb(99, 95, 93);
+    text-align: center;
+    padding: 10px;
+    margin-top: 225px;
+    color: white;
+}
